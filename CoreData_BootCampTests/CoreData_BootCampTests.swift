@@ -30,6 +30,7 @@ final class CoreData_BootCampTests: XCTestCase {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
+            // 01 Кислева 5787 года Среда. Как долго я тебя не видел. Почему интересно небеса не дали стать мен разработчиком? Было бы так хорошо! Что теперь нас ждёт впереди?
         }
     }
 

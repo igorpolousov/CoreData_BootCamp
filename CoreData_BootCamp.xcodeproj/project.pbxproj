@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C213FB382EE5B1EE00358441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213FB2C2EE5B1EE00358441 /* AppDelegate.swift */; };
+		C213FB392EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C213FB2E2EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodeld */; };
+		C213FB3A2EE5B1EE00358441 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213FB342EE5B1EE00358441 /* SceneDelegate.swift */; };
+		C213FB3B2EE5B1EE00358441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213FB352EE5B1EE00358441 /* ViewController.swift */; };
+		C213FB3C2EE5B1EE00358441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C213FB2D2EE5B1EE00358441 /* Assets.xcassets */; };
+		C213FB3E2EE5B1EE00358441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C213FB312EE5B1EE00358441 /* LaunchScreen.storyboard */; };
+		C213FB3F2EE5B1EE00358441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C213FB332EE5B1EE00358441 /* Main.storyboard */; };
+		C213FB422EE5B1F300358441 /* CoreData_BootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213FB402EE5B1F300358441 /* CoreData_BootCampTests.swift */; };
+		C213FB462EE5B1F700358441 /* CoreData_BootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213FB432EE5B1F700358441 /* CoreData_BootCampUITests.swift */; };
+		C213FB472EE5B1F700358441 /* CoreData_BootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213FB442EE5B1F700358441 /* CoreData_BootCampUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C213FB0F2EE4784200358441 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,38 +40,18 @@
 		C213FAF52EE4783F00358441 /* CoreData_BootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData_BootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C213FB0E2EE4784200358441 /* CoreData_BootCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreData_BootCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C213FB182EE4784200358441 /* CoreData_BootCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreData_BootCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C213FB2C2EE5B1EE00358441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C213FB2D2EE5B1EE00358441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C213FB2F2EE5B1EE00358441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C213FB302EE5B1EE00358441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C213FB322EE5B1EE00358441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C213FB342EE5B1EE00358441 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C213FB352EE5B1EE00358441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C213FB372EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_BootCamp.xcdatamodel; sourceTree = "<group>"; };
+		C213FB402EE5B1F300358441 /* CoreData_BootCampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_BootCampTests.swift; sourceTree = "<group>"; };
+		C213FB432EE5B1F700358441 /* CoreData_BootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_BootCampUITests.swift; sourceTree = "<group>"; };
+		C213FB442EE5B1F700358441 /* CoreData_BootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_BootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C213FB202EE4784200358441 /* Exceptions for "CoreData_BootCamp" folder in "CoreData_BootCamp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C213FAF42EE4783F00358441 /* CoreData_BootCamp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C213FAF72EE4783F00358441 /* CoreData_BootCamp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C213FB202EE4784200358441 /* Exceptions for "CoreData_BootCamp" folder in "CoreData_BootCamp" target */,
-			);
-			path = CoreData_BootCamp;
-			sourceTree = "<group>";
-		};
-		C213FB112EE4784200358441 /* CoreData_BootCampTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoreData_BootCampTests;
-			sourceTree = "<group>";
-		};
-		C213FB1B2EE4784200358441 /* CoreData_BootCampUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoreData_BootCampUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C213FAF22EE4783F00358441 /* Frameworks */ = {
@@ -88,9 +81,11 @@
 		C213FAEC2EE4783F00358441 = {
 			isa = PBXGroup;
 			children = (
-				C213FAF72EE4783F00358441 /* CoreData_BootCamp */,
-				C213FB112EE4784200358441 /* CoreData_BootCampTests */,
-				C213FB1B2EE4784200358441 /* CoreData_BootCampUITests */,
+				C213FB342EE5B1EE00358441 /* SceneDelegate.swift */,
+				C213FB2C2EE5B1EE00358441 /* AppDelegate.swift */,
+				C213FB362EE5B1EE00358441 /* CoreData_BootCamp */,
+				C213FB412EE5B1F300358441 /* CoreData_BootCampTests */,
+				C213FB452EE5B1F700358441 /* CoreData_BootCampUITests */,
 				C213FAF62EE4783F00358441 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +98,68 @@
 				C213FB182EE4784200358441 /* CoreData_BootCampUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C213FB362EE5B1EE00358441 /* CoreData_BootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				C213FB4B2EE5B25700358441 /* View */,
+				C213FB482EE5B20800358441 /* CoreData */,
+				C213FB312EE5B1EE00358441 /* LaunchScreen.storyboard */,
+				C213FB2F2EE5B1EE00358441 /* Info.plist */,
+				C213FB2D2EE5B1EE00358441 /* Assets.xcassets */,
+			);
+			path = CoreData_BootCamp;
+			sourceTree = "<group>";
+		};
+		C213FB412EE5B1F300358441 /* CoreData_BootCampTests */ = {
+			isa = PBXGroup;
+			children = (
+				C213FB402EE5B1F300358441 /* CoreData_BootCampTests.swift */,
+			);
+			path = CoreData_BootCampTests;
+			sourceTree = "<group>";
+		};
+		C213FB452EE5B1F700358441 /* CoreData_BootCampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C213FB432EE5B1F700358441 /* CoreData_BootCampUITests.swift */,
+				C213FB442EE5B1F700358441 /* CoreData_BootCampUITestsLaunchTests.swift */,
+			);
+			path = CoreData_BootCampUITests;
+			sourceTree = "<group>";
+		};
+		C213FB482EE5B20800358441 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C213FB4A2EE5B22D00358441 /* CoreDataStack */,
+				C213FB492EE5B22000358441 /* CoreDataModel */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C213FB492EE5B22000358441 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				C213FB2E2EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		C213FB4A2EE5B22D00358441 /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		C213FB4B2EE5B25700358441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C213FB352EE5B1EE00358441 /* ViewController.swift */,
+				C213FB332EE5B1EE00358441 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +176,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C213FAF72EE4783F00358441 /* CoreData_BootCamp */,
 			);
 			name = CoreData_BootCamp;
 			packageProductDependencies = (
@@ -143,9 +197,6 @@
 			dependencies = (
 				C213FB102EE4784200358441 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C213FB112EE4784200358441 /* CoreData_BootCampTests */,
-			);
 			name = CoreData_BootCampTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +216,6 @@
 			);
 			dependencies = (
 				C213FB1A2EE4784200358441 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C213FB1B2EE4784200358441 /* CoreData_BootCampUITests */,
 			);
 			name = CoreData_BootCampUITests;
 			packageProductDependencies = (
@@ -225,6 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C213FB3C2EE5B1EE00358441 /* Assets.xcassets in Resources */,
+				C213FB3E2EE5B1EE00358441 /* LaunchScreen.storyboard in Resources */,
+				C213FB3F2EE5B1EE00358441 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C213FB382EE5B1EE00358441 /* AppDelegate.swift in Sources */,
+				C213FB392EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodeld in Sources */,
+				C213FB3A2EE5B1EE00358441 /* SceneDelegate.swift in Sources */,
+				C213FB3B2EE5B1EE00358441 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C213FB422EE5B1F300358441 /* CoreData_BootCampTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +319,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C213FB462EE5B1F700358441 /* CoreData_BootCampUITests.swift in Sources */,
+				C213FB472EE5B1F700358441 /* CoreData_BootCampUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +339,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		C213FB312EE5B1EE00358441 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C213FB302EE5B1EE00358441 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C213FB332EE5B1EE00358441 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C213FB322EE5B1EE00358441 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		C213FB222EE4784200358441 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -295,8 +372,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,12 +384,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.CoreData-BootCamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,8 +410,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,12 +422,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.CoreData-BootCamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -399,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -457,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -475,16 +564,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3M56A453W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.CoreData-BootCampTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData_BootCamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreData_BootCamp";
 			};
 			name = Debug;
@@ -497,16 +590,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3M56A453W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.CoreData-BootCampTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData_BootCamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreData_BootCamp";
 			};
 			name = Release;
@@ -518,15 +615,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3M56A453W;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.CoreData-BootCampUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = CoreData_BootCamp;
 			};
 			name = Debug;
@@ -538,15 +640,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3M56A453W;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "online.swampios.CoreData-BootCampUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = CoreData_BootCamp;
 			};
 			name = Release;
@@ -591,6 +698,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C213FB2E2EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C213FB372EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodel */,
+			);
+			currentVersion = C213FB372EE5B1EE00358441 /* CoreData_BootCamp.xcdatamodel */;
+			path = CoreData_BootCamp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C213FAED2EE4783F00358441 /* Project object */;
 }
